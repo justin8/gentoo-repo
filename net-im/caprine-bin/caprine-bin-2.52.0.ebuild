@@ -25,7 +25,7 @@ S="${WORKDIR}"
 
 src_prepare() {
 	default
-	unpack_deb "${A}"
+	unpack_deb ${A}
 }
 
 src_install() {
